@@ -1,7 +1,6 @@
 package casting;
 
-public class casting1 {
-
+public class Casting1 {
     public static void main(String[] args) {
         int intValue = 10;
         long longValue;
@@ -13,8 +12,7 @@ public class casting1 {
         doubleValue = intValue; //int -> double
         System.out.println("doubleValue = " + doubleValue);
 
-        doubleValue = 20L;
+        doubleValue = (double)20L; //long -> double
         System.out.println("doubleValue2 = " + doubleValue);
-
     }
 }
